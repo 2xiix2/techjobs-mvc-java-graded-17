@@ -37,6 +37,9 @@
   <hr />
 
   <!-- TODO #4 - Loop over the search results to display all job fields. -->
+    <ul th:each="item : ${jobs}">
+        <li th:text="${item}"></li>
+    </ul>
 
 </div>
 
